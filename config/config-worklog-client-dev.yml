@@ -19,17 +19,14 @@ spring:
     servlet:
       content-type: text/html
 
-  main:
-    allow-bean-definition-overriding: true
-
   mvc:
     static-path-pattern: /static/**
 
 
   application:
     name: dayo-worklog
-    main:
-      allow-bean-definition-overriding: true
+  main:
+    allow-bean-definition-overriding: true
 
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
